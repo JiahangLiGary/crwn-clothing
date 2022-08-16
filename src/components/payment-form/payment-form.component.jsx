@@ -4,11 +4,7 @@ import { async } from "@firebase/util";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import { useSelector } from "react-redux";
 import Button from "../button/button.component";
-import {
-  PaymentFormContainer,
-  FormContainer,
-  PaymentButton,
-} from "./payment-form.style";
+import { PaymentFormContainer, FormContainer } from "./payment-form.style";
 import { selectCartTotal } from "../../store/cart/cart.selector";
 import { selectCurrentUser } from "../../store/user/user.selector";
 
